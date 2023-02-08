@@ -1,0 +1,338 @@
+
+/* 
+ */
+
+ .ant-layout {
+  background-color: #273244;
+
+ }
+
+ img {
+  max-width: 100%;
+ }
+ .AppNav {
+  /* text-align: center;
+  line-height: 120px;
+  color: #fff;
+  background-color: #1F2A3C;
+  min-width: 275px;; */
+  background-color: #1F2A3C !important;
+ }
+.ant-menu-item-divider {
+  border-color: #394B61 !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+.ant-layout-sider {
+  background-color: #1F2A3C !important;
+}
+.ant-menu-item, .ant-menu-submenu-title {
+  background-color: #1F2A3C !important;
+}
+.ant-menu-item, .ant-menu-inline  {
+  height: 30px !important;
+}
+.ant-menu-dark {
+  background-color: #1F2A3C !important;
+
+}
+.ant-menu-title-content {
+  text-align: -webkit-left;
+}
+.ant-menu-item-selected {
+  color: #00E0FF !important;
+}
+.ant-layout-sider-trigger {
+  background-color: #1F2A3C !important;
+}
+.ant-input-affix-wrapper, .ant-input  {
+  background-color: #1A2536;
+  color: white !important;
+  border: transparent !important;
+ }
+ .ant-layout-sider {
+  width: 275px !important;
+  text-align: center;
+  line-height: 120px;
+  color: #fff;
+  background-color: #1F2A3C;
+  min-width: 275px;;
+ }
+.ant-layout-sider-collapsed  #navUserTitle {
+  display: none;
+}
+.ant-layout-sider-collapsed #navUserTitle-mobile {
+  display: block;
+} 
+/* #navUserTitle {
+  display: none;
+}
+#navUserTitle-mobile {
+  display: block;
+} */
+.AppHeader {
+  color: #fff;
+  padding-inline: 50px;
+  line-height: 64px;
+  background-color: #273244;
+  width: -webkit-fill-available;
+  font-size: 24px !important;
+  /* display: grid; */
+  /* grid-template-columns: 4fr 0fr; */
+  max-width: 1068px !important;
+  place-self: center;
+  padding-top: 11px;
+
+ }
+
+ .mainContent {
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-color: #273244;
+  grid-gap: '24px';
+  place-self: center;
+  max-width: 1070px !important;
+ }
+ .mainContent > .ant-space {
+  width: -webkit-fill-available !important;
+ }
+ 
+ .movieCard {
+  /* padding-bottom: 5px !important; */
+  /* padding: 2px; */
+  background: #394B61;
+  color: white;
+  border: unset;
+  margin-bottom: 8px;
+  max-width: 178px;
+  max-height: 278px;
+  width: 100%;
+}
+
+.movieCard > .ant-card-body {
+  padding: 12px !important;
+  padding-top: 0px !important;;
+}
+
+.cardWrapper{
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, 1fr); */
+  gap: 20px;
+  /* grid-auto-rows: min-content; */
+  width: auto !important;
+  /* justify-items: center; */
+
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.cardWrapper > * {}
+
+.dataCard {
+  width: 100%;
+  margin: auto;
+  background-color: #394B61 !important;
+  height: 389px;
+  color: white;
+  border: unset !important;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.dataCard > .ant-card-body {
+  padding: unset !important;
+}
+.dataCard-Poster-Wrapper {
+    height: 390px !important;
+    flex: none;
+    width: 264px !important;
+    height: 390px !important;
+    flex: none;
+    max-width: 294px;
+    writing-mode: vertical-rl;
+}
+.dataCard-Poster {
+  /* border-radius: 15px !important; */
+}
+.dataCard-Title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  /* max-width: 110px; */
+}
+
+.dataCard-Wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.posterImage {
+  padding: 8px;
+  border-radius: 15px !important;
+  max-height:188px;
+  object-fit: cover;
+}
+#navUserTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#navUserTitle-mobile {
+  display: none;
+}
+.dataCard-Data-Wrapper {
+  align-self: center;
+  padding-left: 46px;
+  padding-right: 48px !important;
+  
+}
+#searchInputBox {
+  height: 55px;
+  min-width: 625px !important; 
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: white !important;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white !important;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+::placeholder {
+  color: white !important;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  /* line-height: 44px; */
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 8px !important;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+/* Mobile css */
+@media (max-width:480px){
+    .AppHeader {
+      padding-inline: 10px;
+      padding-top: 31px;
+      padding-bottom: 12px;
+    }
+    #searchInputBox {
+      min-width: 200px !important; 
+    }
+   .cardWrapper {
+      gap: 18px !important;
+      /* padding: 4px !important; */
+      justify-content: center !important;
+    }
+
+    #mainContentWrapper {
+      padding: 8px !important;
+      gap: 8px !important;
+    }
+
+    .cardWrapper {
+      gap: 18px !important;
+        /* padding: 12px !important; */
+    }
+
+    .movieCard {
+      height: 261px;
+        width: 138px;
+        margin-bottom: 6px;
+        max-width: 178px;
+        max-height: 278px;
+    }
+
+    .navIcon {
+      font-size: 36px;
+    }
+    .dataCard {
+      max-width: 70vw;
+      min-height: 600px;
+      height: auto;
+      padding-bottom: 18px;
+    }
+    .dataCard-Title {
+      /* max-width: 150px; */
+      max-width: 110px;
+    }
+    #siderWrapper {
+      padding-top: 0px !important
+    }
+    .dataCard-Wrapper{
+      flex-direction: column;
+    }
+    .dataCard-Data-Wrapper {
+      padding: 24px;
+    }
+    .dataCard-Poster-Wrapper{
+    height: unset !important;
+    writing-mode: unset !important;
+    width: 100% !important;
+    }
+
+ }
+
+ /* @media (max-width:1090px){
+  .mainContent {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+ } */
+/* 
+ @media (min-width:1090px){
+  .cardWrapper {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+ }
+
+
+ @media (min-width:1300px){
+  .cardWrapper {
+    grid-template-columns: repeat(5, 1fr) !important;
+  }
+ }
+
+
+ @media (min-width:1600px){
+  .cardWrapper {
+    grid-template-columns: repeat(6, 1fr) !important;
+  }
+ }
+
+
+
+ @media (min-width:1700px){
+  .cardWrapper {
+    grid-template-columns: repeat(7, 1fr) !important;
+  }
+ }
+
+
+ @media (min-width:1800px){
+  .cardWrapper {
+    grid-template-columns: repeat(8, 1fr) !important;
+  }
+ } */
+
