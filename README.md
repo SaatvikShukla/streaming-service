@@ -1,6 +1,6 @@
 # Streaming service by Saatvik Shukla
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). and utilises Antd & Material UI as component libraries.
+This project was bootstrapped in React.JS and utilises Antd & Material UI as component libraries.
 [Live Demo Link](https://streaming-service-demo.web.app/).
 
 ## Available Scripts
